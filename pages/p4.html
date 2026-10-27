@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Page 1 of the practical w4 assignment">
+	<title>My Website</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geom:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Geom', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen">
+    <header class="border-b bg-gradient-to-br from-sky-100 to-indigo-150">
+        <nav class="mx-auto flex max-w-7xl items-center justify-between p-6" aria-label="Main navigation">
+            <p class="text-lg text-gray-500" aria-disabled="true">Previous Page</p>
+            <a href="../index.html" class="text-xl font-bold transition duration-300 ease-out hover:scale-105 hover:underline">How Computing Improves Society</a>
+            <a href="p2.html" class="text-lg transition duration-300 ease-out hover:scale-105 hover:underline" target="_self" aria-label="Next Page">Next Page</a>
+        </nav>
+    </header>
+
+    <article class="mx-auto max-w-7xl p-6 flex flex-col flex-grow">
+        <h1 class="text-3xl font-bold pb-10 pt-10 pl-5 pr-5 mb-10 rounded-md shadow-lg 
+        bg-cover bg-center bg-[linear-gradient(rgba(255,255,255,0.78),rgba(255,255,255,0.78)),url('https://cdn.prod.website-files.com/6552758bed0bca440d439436/65e1123c2167dfa4c6484bb3_20240229T1124-351c6a2d-17f9-4230-a117-7f5ff6b9f5a7.png')]">
+            P1: Computer Vision in Medical Imaging</h1>
+        <p class="mb-4">
+            Computer vision is a field of <span class="italic">machine learning</span> that mostly deals with image and video analysis.
+        </p>
+        <p class="mb-4">
+            In medical imaging technology, computer vision has been used successfully to greatly enhance the capabilities of 
+            medical imaging systems, like in <span class="italic">computed tomography(CT), magnetic resonance imaging(MRI)</span> and more.
+            
+            In general, this has massively improved the accuracy and efficiency of providing medical diagnoses from these imaging systems,
+            reduced the workload of medical professionals, and opened up new possibilities for analyzing medical imaging data in real time,
+            like in live surgical guidance.
+        </p>
+
+        <section class="mt-8">
+            <h2 class="text-2xl font-bold mb-4">Sources</h2>
+            <ul class="list-disc list-inside">
+                <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12827770/" target="_blank" class="text-blue-600 hover:underline">Applications, image analysis, and interpretation of computer vision in medical imaging</a></li>
+            </ul>
+        </section>
+    </article> 
+
+    <footer class="border-t bg-gradient-to-tl from-sky-100 to-indigo-150">
+        <div class="mx-auto max-w-7xl p-6 text-center text-gray-500">
+            2026 Tsz Kwai Hui, <p><a href="https://github.com/YBQuintus" target="_blank">GitHub</a>, 
+                <a href="https://www.linkedin.com/in/tsz-kwai-hui-346a2937a" target="_blank">LinkedIn</a></p>
+        </div>
+    </footer>
+</body>
+</html>
