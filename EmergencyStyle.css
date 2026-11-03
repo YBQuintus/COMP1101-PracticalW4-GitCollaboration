@@ -1,0 +1,53 @@
+.BlogMenu 
+{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    margin: 25px;
+    gap: 15px;
+
+    height: 50vh;
+
+}
+
+
+.BlogMenu div 
+{
+    background-color: #ffffff;
+
+    border-radius: 20px;
+    padding: 10px;
+
+    scale: 1;
+    transition: scale 1s;
+
+
+}
+
+.BlogMenu div:hover 
+{
+    scale: 1.05;
+}
+
+#P1 
+{
+
+    grid-row: 1/1;
+    grid-column: 1/4;
+}
+
+#P2 
+{
+    grid-row: 2/2;
+}
+
+
+.READ 
+{
+    
+}
+
+
+
