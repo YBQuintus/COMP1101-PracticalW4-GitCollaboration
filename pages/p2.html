@@ -11,6 +11,14 @@
         body {
             font-family: 'Geom', sans-serif;
         }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .animate-gradient {
+            animation: gradientShift 6s linear infinite;
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen">
@@ -31,8 +39,16 @@
             Advances in computing and technology have allowed for people to communicate and share information across the globe <span class="italic">in real time</span>.
         </p>
         <p class="mb-4">
-            Applications like <span class="italic">WhatsApp, Facebook Messenger, and WeChat</span> have allowed for, say, someone from China to contact someone from the USA, and vice versa, in a matter of seconds,
-            and social media platforms like <span class="italic">Facebook, Instagram, and Twitter</span> have allowed for the massive spread of information, whether true or false, across the globe
+            Applications like <span class="italic">
+                <a href="https://www.whatsapp.com/" target="_blank" class="text-[#075E54] hover:underline">WhatsApp</a>, 
+                <a href="https://www.facebook.com/messages/" target="_blank" class="text-[#1877F2] hover:underline">Facebook Messenger</a>, and 
+                <a href="https://weixin.qq.com/" target="_blank" class="text-[#07C160] hover:underline">WeChat</a>
+            </span> have allowed for, say, someone from China to contact someone from the USA, and vice versa, in a matter of seconds,
+            and social media platforms like <span class="italic">
+                <a href="https://www.facebook.com/" target="_blank" class="text-[#1877F2] hover:underline">Facebook</a>, 
+                <a href="https://www.instagram.com/" target="_blank" class="text-[#E1306C] hover:underline">Instagram</a>, and 
+                <a href="https://twitter.com/" target="_blank" class="text-[#1DA1F2] hover:underline">Twitter</a>
+            </span> have allowed for the massive spread of information, whether true or false, across the globe
             to everyone with access to these platforms. 
 
             This growth in communication and information sharing has allowed for the rapid spread of knowledge, ideas, and culture across the globe, and is a big part of the general trend of
@@ -41,10 +57,10 @@
         
     </article> 
 
-    <footer class="border-t bg-gradient-to-tl from-sky-100 to-indigo-150">
+    <footer class="border-t bg-gradient-to-tl from-sky-200 to-indigo-200 via-white bg-[length:200%_200%] animate-gradient">
         <div class="mx-auto max-w-7xl p-6 text-center text-gray-500">
-            2026 Tsz Kwai Hui, <p><a href="https://github.com/YBQuintus" target="_blank" class="hover:underline">GitHub</a>, 
-                <a href="https://www.linkedin.com/in/tsz-kwai-hui-346a2937a" target="_blank" class="hover:underline">LinkedIn</a></p>
+            2026 Tsz Kwai Hui, <p><a href="https://github.com/YBQuintus" target="_blank" class="text-[#08872b] hover:underline">GitHub</a>, 
+                <a href="https://www.linkedin.com/in/tsz-kwai-hui-346a2937a" target="_blank" class="text-[#0072b1] hover:underline">LinkedIn</a></p>
         </div>
     </footer>
 </body>
